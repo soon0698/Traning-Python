@@ -8,7 +8,7 @@ def bot_login():
      client_id = config.client_id,
      client_secret = config.client_secret,
      user_agent = "soon0698's dog comment responder v0.1")
-    print("로그인(정보 획득) 완료!")
+    print("로그인(정보 획득) 완료!") #강좌에서는 Python2로 진행하여 함수 호출이 필요없지만, Python3는 반드시 함수 호출로 행해야 합니다.
     return r
 
 def run_bot(r):
@@ -19,7 +19,7 @@ def run_bot(r):
             comment.reply("나도 좋아해! [여기](http://imgur.com/gallery/TUQvrsV)에도 하나 있지!")
             print(comment.id + "의 코멘트에 응답했습니다!")
     print("10초간 대기합니다.")
-    time.sleep(10)
+    time.sleep(10) #예상과 다르게 단위가 ms가 아닌 second..
 
 r = bot_login()
 while True:
