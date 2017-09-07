@@ -1,4 +1,4 @@
-import praw
+import praw # http://praw.readthedocs.io/en/latest/code_overview/models/subreddit.html
 import config
 import time
 
