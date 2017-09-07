@@ -4,10 +4,10 @@ import time
 
 def bot_login(): 
     r = praw.Reddit(username = config.username,
-     password = config.password,
-     client_id = config.client_id,
-     client_secret = config.client_secret,
-     user_agent = "soon0698's dog comment responder v0.1")
+                    password = config.password,
+                    client_id = config.client_id,
+                    client_secret = config.client_secret,
+                    user_agent = "soon0698's dog comment responder v0.1")
     print("로그인(정보 획득) 완료!") #강좌에서는 Python2로 진행하여 함수 호출이 필요없지만, Python3는 반드시 함수 호출로 행해야 합니다.
     return r
 
