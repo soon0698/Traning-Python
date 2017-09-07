@@ -8,3 +8,5 @@ Course Plan
 [busterroni11 - How To Make A reddit Bot](https://www.youtube.com/watch?v=krTUf7BpTc0) (Eng)
 
 [Sentdex - Practical Machine Learning Tutorial with Python Intro](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v) (Eng)
+
+and more materials..
